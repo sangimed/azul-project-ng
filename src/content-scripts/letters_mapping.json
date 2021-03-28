@@ -1,0 +1,34 @@
+{
+	"version": "1.0",
+	
+	"_comment": "Γ, γ, Σ and ε ommited on this mapping are alternatives to some letters",
+	"latin": {
+		"c=": "č",
+		"C=": "Č",
+		"d=": "ḍ",
+		"D=": "Ḍ",
+		"g=": "ǧ",
+		"G=": "Ǧ",
+		"h=": "ḥ",
+		"H=": "Ḥ",
+		"e=": "ɛ",
+		"E=": "Ɛ",
+		"r=": "ṛ",
+		"R=": "Ṛ",
+		"gh": "ɣ",
+		"GH": "Ɣ",
+		"y=": "ɣ",
+		"Y=": "Ɣ",
+		"s=": "ṣ",
+		"S=": "Ṣ",
+		"t=": "ṭ",
+		"T=": "Ṭ",
+		"kh": "x",
+		"z=": "ẓ",
+		"Z=": "Ẓ"
+	},
+
+	"_comment_2": "Coming on a future release hopefully",
+	"tifinagh": {
+	}
+}
