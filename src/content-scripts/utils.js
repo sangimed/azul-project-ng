@@ -90,6 +90,7 @@ function isElement(obj) {
   return obj && obj.nodeType === 1;
 }
 
+// TODO Add the contenteditable case (cf. https://developer.mozilla.org/fr/docs/Web/HTML/Global_attributes/contenteditable) 
 /**
  * Checks if an element is an input or a textarea.
  * @param {Element} elem - The element to check.
