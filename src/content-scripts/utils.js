@@ -7,7 +7,7 @@
  */
 const EDITABLE_TAGS = ["INPUT", "TEXTAREA"];
 
-const LETTERS_MAPPING = require("../../data/letters_mapping.json");
+const LETTERS_MAPPING = require("./letters_mapping.json");
 
 // FUNCTIONS
 
@@ -184,5 +184,5 @@ export {
   isEditable,
   findDeepest,
   EDITABLE_TAGS,
-  LETTERS_MAPPING,
+  LETTERS_MAPPING
 };
