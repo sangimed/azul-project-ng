@@ -28,6 +28,7 @@ document.addEventListener("keypress", event => {
     currentChar !== " "
   ) {
     const caretPos = getCaretPosition(currentElement);
+    // FIXME manage the case where currentElement is a contenteditable node.
     const beforeLastChar = getBeforeLastChar(currentElement.value, caretPos);
     if (
       beforeLastChar != null &&
